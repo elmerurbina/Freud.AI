@@ -15,7 +15,6 @@ body{
     font-size: 12px;
     line-height: 1.6;
     color: #fdfcfc;
-    margin-right: 25%;
     margin-left: 25%;
 }
 
@@ -30,7 +29,6 @@ body{
     font-size: 12px;
     line-height: 1.6;
     color: #fdfcfc;
-    margin-right: 25%;
     margin-left: 25%;
 }
 
@@ -45,7 +43,6 @@ body{
     font-size: 12px;
     line-height: 1.6;
     color: #fdfcfc;
-    margin-right: 25%;
     margin-left: 25%;
 }
 
@@ -61,7 +58,6 @@ body{
     font-size: 12px;
     line-height: 1.6;
     color: #fdfcfc;
-    margin-right: 25%;
     margin-left: 25%;
 }
 
@@ -97,18 +93,18 @@ li{
 }
 
 img{
-    width: 400px;
+    width: 10px;
     height: auto;
     margin-top: 5%;
     margin-right: 20px;
-    margin-left: 300px;
+    margin-left: 100px;
 }
 
 header {
     position: fixed;
     left: 0;
    
-    
+background: #ebe2e2;    
     
 }
 
