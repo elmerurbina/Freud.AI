@@ -77,3 +77,36 @@ b{
 .leerMas{
     color: rgb(15, 252, 15);
 }
+
+.logo {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 3%;
+}
+
+span{
+    color: #EE13C4;
+}
+
+.menu{
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+li{
+    list-style: none;
+    margin-top: 50px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; 
+    height: 100%;
+    background-color: gray; 
+}
+
