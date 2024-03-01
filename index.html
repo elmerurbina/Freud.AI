@@ -23,6 +23,7 @@
                 <li><a class="menu-items" href="#">Unete a nosotros en Telegram</a></li> 
                 <li><a class="menu-items" href="https://www.youtube.com/@freud-ia">Suscribete a nuestro canal de YouTube</a></li>
                 <li><a class="menu-items" href="#">Siguenos en Facebook</a></li>
+                <li><a class="menu-items" href="#formulario">Suscribete</a> </li>
             </ul>
         </nav>
     </header>
@@ -36,12 +37,19 @@
         <a href="#"><i class="fab fa-facebook"></i></a>
         <a href="https://www.youtube.com/@freud-ia"><i class="fab fa-youtube"></i></a>
         <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="mailto:freudiaweb@gmail.com" style="color: #ee3a3a;"><i class="far fa-envelope"></i></a>
+
 
     </div>
     
-    <img src="chat.png" alt="interfaz del chatbot"> <figcaption>
-        Interfaz del chatbot diseñada para ofrecer apoyo psicológico personalizado, simulando la interacción con un psicólogo humano para promover el bienestar mental de los usuarios.
-    </figcaption>
+    <figure>
+        <img src="chat.png" alt="interfaz del chatbot">
+        <figcaption>
+            Interfaz donde podras interactuar con nuestro modelo de IA
+        </figcaption>
+    </figure>
+    
+   
     
     <div class="contenedor">
     
@@ -83,7 +91,7 @@
         </div>
 
             <div class="diferenciacion">
-                <h4>¿Cómo nos diferenciamos de la competencia?</h4>
+                <h4>¿Cómo nos diferenciamos de la competencia? <i class="fa-brands fa-black-tie"></i></h4>
                 <p>Nuestra plataforma se destaca de la competencia gracias a nuestra innovadora integración de tecnología de vanguardia, como el aprendizaje automático (Machine Learning). Mientras que muchos servicios de apoyo psicológico en línea se limitan a conectar a los usuarios con psicólogos en línea, en Freud IA vamos más allá.</p>
                 <p><a href="#" class="leerMas">Leer más</a></p>
             <div class="parrafosOcultos" style="display: none;">
@@ -95,17 +103,19 @@
     </div>
 
 
-    <div class="formulario">
+    <div class="formulario" id="formulario">
     <p>Suscribete para recibir actualizaciones sobre nuestros planes</p>
-    <form action= "https://formspree.io/f/mjvnrzvj" method="POST">
+    <form id="subscription-form" action= "https://formspree.io/f/mjvnrzvj" method="POST">
         <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
         <button type="submit">Suscribirme</button>
     </form>
+    <p id="thank-you-message" style="display: none;">Gracias por suscribirte!</p>
 </div>
 
     <script src="leerMas.js"></script>
     <script src="privacidad.js"></script>
     <script src="valores.js"></script>
+    <script src="formulario.js"></script>
    
 </body>
 

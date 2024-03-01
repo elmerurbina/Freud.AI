@@ -5,7 +5,8 @@ body{
 
 figcaption{
     font-size: 12px;
-    margin-top: 0%;
+    margin-top: -6%;
+    margin-bottom: 10%;
     color: white;
 }
 
@@ -169,10 +170,10 @@ p.derechos-autor{
     text-decoration: none;
 }
 
-/* Media query para mostrar el menú en pantallas pequeñas */
+
 @media screen and (max-width: 600px) {
     .menu-toggle {
-        display: block; /* Mostrar el botón de toggle */
+        display: block; 
      
     }
 
@@ -249,3 +250,17 @@ p.derechos-autor{
         width: calc(50% - 20px);
     }
 }
+
+p.derechos-autor{
+    color: rgb(240, 98, 204);
+    text-align: center;
+}
+
+#thank-you-message {
+    display: none; /* Ocultar el mensaje inicialmente */
+    color: rgb(24, 226, 24); /* Color verde para el mensaje */
+}
+
+
+
+
