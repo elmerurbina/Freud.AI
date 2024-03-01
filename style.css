@@ -2,18 +2,13 @@ body{
     background: rgb(68, 14, 119);
     font-family: Arial, Helvetica, sans-serif;
 }
-.informacion {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: justify;
-    align-items: center;
-}
+
 
 .nosotros h1 {
     font-size: 16px;
     color: #ebe2e2;
     text-align: center;
+    margin-top: 10%;
 }
 
 .nosotros p {
@@ -101,6 +96,14 @@ li{
     margin-top: 50px;
 }
 
+img{
+    width: 400px;
+    height: auto;
+    margin-top: 5%;
+    margin-right: 20px;
+    margin-left: 300px;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -155,3 +158,39 @@ header {
         padding: 5px 0;
     }
 }
+
+.sociales {
+    display: flex; /* Mostrar los iconos en línea */
+    justify-content: center; /* Centrar horizontalmente */
+    margin-top: 20px; /* Espacio superior entre el contenido y los iconos */
+}
+
+
+.sociales a {
+    margin: 0 10px; 
+    transition: transform 0.3s; /* Efecto de transición para el cambio de tamaño */
+    font-size: 25px;
+}
+
+/* Estilos para los iconos al pasar el cursor sobre ellos */
+.sociales a:hover {
+    transform: scale(1.1); /* Aumentar el tamaño del icono al 110% */
+}
+
+/* Estilos para el icono de Facebook */
+.sociales a[href="#"] .fab.fa-facebook {
+    color: rgb(17, 17, 187); /* Color azul para el icono de Facebook */
+}
+
+/* Estilos para el icono de YouTube */
+.sociales a[href="https://www.youtube.com/@freud-ia"] .fab.fa-youtube {
+    color: rgb(206, 25, 25); /* Color rojo para el icono de YouTube */
+}
+
+p.derechos-autor{
+    font-size: 14px;
+    margin-top: 8%;
+    margin-bottom: 20%;
+   
+}
+
