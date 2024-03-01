@@ -3,6 +3,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+figcaption{
+    font-size: 12px;
+    margin-top: 0%;
+    color: white;
+}
 
 .nosotros h1 {
     font-size: 16px;
@@ -15,7 +20,6 @@ body{
     font-size: 12px;
     line-height: 1.6;
     color: #fdfcfc;
-    margin-left: 25%;
 }
 
 .problematica h2 {
@@ -29,7 +33,6 @@ body{
     font-size: 12px;
     line-height: 1.6;
     color: #fdfcfc;
-    margin-left: 25%;
 }
 
 .impactoSocial h3 {
@@ -43,7 +46,6 @@ body{
     font-size: 12px;
     line-height: 1.6;
     color: #fdfcfc;
-    margin-left: 25%;
 }
 
 
@@ -58,7 +60,6 @@ body{
     font-size: 12px;
     line-height: 1.6;
     color: #fdfcfc;
-    margin-left: 25%;
 }
 
 b{
@@ -103,7 +104,7 @@ img{
 
 header {
     position: fixed;
-    left: 0; 
+    left: 1%; 
     
 }
 
@@ -129,6 +130,10 @@ header {
 /* Estilos para el icono de Facebook */
 .sociales a[href="#"] .fab.fa-facebook {
     color: rgb(17, 17, 187); /* Color azul para el icono de Facebook */
+}
+
+.sociales a[href="#"] .fab.fa-telegram {
+    color: rgb(0, 136, 204);
 }
 
 /* Estilos para el icono de YouTube */
@@ -178,4 +183,45 @@ p.derechos-autor{
     .menu.active {
         display: block; /* Mostrar el menú cuando está activo */
     }
+}
+
+.formulario {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario p {
+    margin-top: 10%;
+    font-size: 12px;
+    color: rgb(252, 196, 93);
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario button[type="submit"]:hover {
+    background-color: #0056b3;
 }
