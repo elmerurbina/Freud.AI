@@ -89,7 +89,7 @@ span{
     color: #EE13C4;
 }
 
-.menu{
+.menu-items{
     color: black;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
@@ -110,3 +110,48 @@ header {
     background-color: gray; 
 }
 
+
+/* Estilos para el botón de toggle */
+.menu-toggle {
+    display: none; /* Oculta el botón de toggle en pantallas grandes */
+}
+
+/* Estilos para el menú */
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    padding: 5px 0;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    /* Muestra el botón de toggle en pantallas pequeñas */
+    .menu-toggle {
+        display: block;
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    /* Oculta el menú en pantallas pequeñas */
+    .menu {
+        display: none;
+    }
+
+    /* Estilos para los enlaces del menú en pantallas pequeñas */
+    .menu a {
+        display: block;
+        padding: 5px 0;
+    }
+}
