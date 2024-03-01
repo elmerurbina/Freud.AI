@@ -93,18 +93,17 @@ li{
 }
 
 img{
-    width: 10px;
+    width: 300px;
     height: auto;
     margin-top: 5%;
-    margin-right: 20px;
-    margin-left: 100px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    align-items: center;
 }
 
 header {
     position: fixed;
-    left: 0;
-   
-background: #ebe2e2;    
+    left: 0; 
     
 }
 
@@ -144,3 +143,39 @@ p.derechos-autor{
    
 }
 
+.menu {
+    display: none; /* Ocultar el menú inicialmente */
+}
+
+.menu ul {
+    list-style: none; /* Eliminar viñetas de la lista */
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.menu ul li {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Media query para mostrar el menú en pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    .menu-toggle {
+        display: block; /* Mostrar el botón de toggle */
+     
+    }
+
+    .menu {
+        display: none; /* Ocultar el menú por defecto en pantallas pequeñas */
+    }
+
+    .menu.active {
+        display: block; /* Mostrar el menú cuando está activo */
+    }
+}
