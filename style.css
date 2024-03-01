@@ -225,3 +225,27 @@ p.derechos-autor{
 .formulario button[type="submit"]:hover {
     background-color: #0056b3;
 }
+
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nosotros,
+.problematica,
+.impactoSocial,
+.diferenciacion {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .nosotros,
+    .problematica,
+    .impactoSocial,
+    .diferenciacion {
+        width: calc(50% - 20px);
+    }
+}
