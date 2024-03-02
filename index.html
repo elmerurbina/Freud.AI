@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freud IA</title>
+    <!--Archivo CSS-->
     <link rel="stylesheet" href="style.css">
+    <!--Link de fontawesome.com para los iconos-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
   
@@ -14,25 +16,29 @@
 <body>
     
     <header>
+        <!--Logo-->
         <div class="logo">FREUD <span>IA</span></div>
+        <!--Barras del menu-->
         <button class="menu-toggle" aria-label="Toggle menu">☰</button>
         <nav class="menu">
+            <!--Lista de opciones en el menu-->
             <ul>
                 <li><a class="menu-items" href="#" id="privacyLink">Términos y condiciones</a></li>
                 <li><a class="menu-items" href="#" id="valores">Valores</a></li>
-                <li><a class="menu-items" href="#">Unete a nosotros en Telegram</a></li> 
-                <li><a class="menu-items" href="https://www.youtube.com/@freud-ia">Suscribete a nuestro canal de YouTube</a></li>
-                <li><a class="menu-items" href="#">Siguenos en Facebook</a></li>
-                <li><a class="menu-items" href="#formulario">Suscribete</a> </li>
+                <li><a class="menu-items" href="#">Únete a nosotros en Telegram</a></li> 
+                <li><a class="menu-items" href="https://www.youtube.com/@freud-ia">Suscríbete a nuestro canal de YouTube</a></li>
+                <li><a class="menu-items" href="#">Síguenos en Facebook</a></li>
+                <li><a class="menu-items" href="#formulario">Recibir actualizaciones</a> </li>
             </ul>
         </nav>
     </header>
 
    
-
+    <!--Scrip para la funcion del menu-->
     <script src="menu.js"></script>
 
 
+    <!--Iconos de las redes sociales-->
     <div class="sociales">
         <a href="#"><i class="fab fa-facebook"></i></a>
         <a href="https://www.youtube.com/@freud-ia"><i class="fab fa-youtube"></i></a>
@@ -42,6 +48,7 @@
 
     </div>
     
+    <!--Capture de la interfaz del chatbot-->
     <figure>
         <img src="chat.png" alt="interfaz del chatbot">
         <figcaption>
@@ -50,10 +57,11 @@
     </figure>
     
    
-    
+    <!--Div que contiene los parrafaos-->
     <div class="contenedor">
     
 
+        <!--Parrafo uno-->
     <div class="nosotros">
         <h1>¿Quiénes Somos?  <i class="fa-solid fa-heart"></i></h1>
         <p>Somos <b>Freud IA</b>, un equipo dedicado a proporcionar apoyo psicológico a través de la inteligencia artificial. Nuestra misión es brindarte un espacio seguro y confidencial donde puedas expresar tus preocupaciones y recibir ayuda profesional.</p>
@@ -65,6 +73,7 @@
         </div>
     </div>
 
+    <!--Parrafo dos-->
     <div class="problematica">
         <h2>Problematica <i class="fa-solid fa-brain"></i></h2>
         <p>En la actualidad, enfrentamos una creciente incidencia de problemas psicológicos en la sociedad. El estrés, la ansiedad, la depresión y otros trastornos mentales están afectando a un número cada vez mayor de personas en todo el mundo.</p>
@@ -76,6 +85,7 @@
         </div>
     </div>
 
+    <!--Parrafo tres-->
         <div class="impactoSocial">
             <h3>Impacto Social <i class="fa-solid fa-handshake"></i></h3>
             <p>Nuestra plataforma, Freud IA, no solo busca proporcionar apoyo psicológico individual, sino que también tiene un impacto significativo en la sociedad en general.</p>
@@ -90,6 +100,8 @@
             </div>
         </div>
 
+
+        <!--Parrafo cuatro-->
             <div class="diferenciacion">
                 <h4>¿Cómo nos diferenciamos de la competencia? <i class="fa-brands fa-black-tie"></i></h4>
                 <p>Nuestra plataforma se destaca de la competencia gracias a nuestra innovadora integración de tecnología de vanguardia, como el aprendizaje automático (Machine Learning). Mientras que muchos servicios de apoyo psicológico en línea se limitan a conectar a los usuarios con psicólogos en línea, en Freud IA vamos más allá.</p>
@@ -103,15 +115,17 @@
     </div>
 
 
+    <!--Input para suscribir el correo-->
     <div class="formulario" id="formulario">
     <p>Suscribete para recibir actualizaciones sobre nuestros planes</p>
-    <form id="subscription-form" action= "https://formspree.io/f/mjvnrzvj" method="POST">
+    <form id="subscription-form" action= "https://formspree.io/f/mjvnrzvj" method="POST"> <!--Token de Formspree-->
         <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
         <button type="submit">Suscribirme</button>
     </form>
     <p id="thank-you-message" style="display: none;">Gracias por suscribirte!</p>
 </div>
 
+<!--Conexiones con JS-->
     <script src="leerMas.js"></script>
     <script src="privacidad.js"></script>
     <script src="valores.js"></script>

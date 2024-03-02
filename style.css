@@ -10,6 +10,7 @@ figcaption{
     color: white;
 }
 
+/* Inicio de los estilos de los parrafos, cada uno independiente */
 .nosotros h1 {
     font-size: 16px;
     color: #ebe2e2;
@@ -63,6 +64,8 @@ figcaption{
     color: #fdfcfc;
 }
 
+/* Fin de los estilos de los parrafos */
+
 b{
     color: rgb(233, 124, 188);
 }
@@ -82,6 +85,7 @@ span{
     color: #EE13C4;
 }
 
+/* Estilos del menu */
 .menu-items{
     color: black;
     font-size: 12px;
@@ -109,7 +113,7 @@ header {
     
 }
 
-
+/* Estilos de los iconos de las redes sociales */
 .sociales {
     display: flex; /* Mostrar los iconos en línea */
     justify-content: center; /* Centrar horizontalmente */
@@ -133,6 +137,7 @@ header {
     color: rgb(17, 17, 187); /* Color azul para el icono de Facebook */
 }
 
+/* Estilos para el icono de Telegram */
 .sociales a[href="#"] .fab.fa-telegram {
     color: rgb(0, 136, 204);
 }
@@ -149,12 +154,13 @@ p.derechos-autor{
    
 }
 
+/* Otros estilos del menu */
 .menu {
-    display: none; /* Ocultar el menú inicialmente */
+    display: none; 
 }
 
 .menu ul {
-    list-style: none; /* Eliminar viñetas de la lista */
+    list-style: none; 
     margin: 0;
     padding: 0;
     background: white;
@@ -178,14 +184,15 @@ p.derechos-autor{
     }
 
     .menu {
-        display: none; /* Ocultar el menú por defecto en pantallas pequeñas */
+        display: none; 
     }
 
     .menu.active {
-        display: block; /* Mostrar el menú cuando está activo */
+        display: block; 
     }
 }
 
+/* Estilos para el formulario de suscripcion de email */
 .formulario {
     font-size: 16px;
     color: #333;
@@ -227,7 +234,7 @@ p.derechos-autor{
     background-color: #0056b3;
 }
 
-
+/* Estilos para mostrar los parrafos en bloques */
 .contenedor {
     display: flex;
     flex-wrap: wrap;
@@ -256,6 +263,7 @@ p.derechos-autor{
     text-align: center;
 }
 
+/* Mensaje para cuando el usuario se suscribe con su correo */
 #thank-you-message {
     display: none; /* Ocultar el mensaje inicialmente */
     color: rgb(24, 226, 24); /* Color verde para el mensaje */
