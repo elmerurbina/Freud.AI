@@ -268,7 +268,7 @@ p.derechos-autor{
     .impactoSocial,
     .diferenciacion {
         width: calc(100% - 20px);
-        margin-left: 1%; /* Cambia el ancho de los bloques para pantallas más pequeñas */
+        margin-left: 2%;
     }
 }
 
@@ -281,7 +281,7 @@ p.derechos-autor{
 
 .titulo-bienvenida {
     position: absolute;
-    top: 20%; /* Posición vertical centrada */
+    top: 50%; /* Posición vertical centrada */
     left: 50%; /* Posición horizontal centrada */
     transform: translate(-50%, -50%); /* Centrar el texto tanto vertical como horizontalmente */
     color: #fff;
@@ -289,6 +289,14 @@ p.derechos-autor{
     font-weight: bold; /* Texto en negrita */
     font-family: 'Arial', sans-serif; /* Fuente moderna */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto para mayor contraste */
+}
+
+
+@media screen and (max-width: 768px) {
+    .titulo-bienvenida {
+        font-size: 24px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+        top: 40%; /* Ajustar la posición vertical centrada para pantallas pequeñas */
+    }
 }
 
 
