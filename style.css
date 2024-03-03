@@ -267,7 +267,8 @@ p.derechos-autor{
     .problematica,
     .impactoSocial,
     .diferenciacion {
-        width: calc(100% - 20px); /* Cambia el ancho de los bloques para pantallas más pequeñas */
+        width: calc(100% - 20px);
+        margin-left: 1%; /* Cambia el ancho de los bloques para pantallas más pequeñas */
     }
 }
 
@@ -280,7 +281,7 @@ p.derechos-autor{
 
 .titulo-bienvenida {
     position: absolute;
-    top: 50%; /* Posición vertical centrada */
+    top: 20%; /* Posición vertical centrada */
     left: 50%; /* Posición horizontal centrada */
     transform: translate(-50%, -50%); /* Centrar el texto tanto vertical como horizontalmente */
     color: #fff;
