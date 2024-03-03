@@ -28,7 +28,7 @@ figcaption{
     font-size: 20px;
     color: #f368f8;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .problematica p {
@@ -41,7 +41,7 @@ figcaption{
     font-size: 20px;
     color: #f368f8;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .impactoSocial p {
@@ -55,7 +55,7 @@ figcaption{
     font-size: 20px;
     color: #f368f8;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .diferenciacion p {
@@ -259,6 +259,7 @@ p.derechos-autor{
 .diferenciacion {
     width: calc(30% - 20px); /* Ajusta el ancho de los bloques según tus necesidades */
     margin-bottom: 20px;
+    margin-top: 20%;
     background: #023e7a;
 }
 
@@ -269,6 +270,7 @@ p.derechos-autor{
     .diferenciacion {
         width: calc(100% - 20px);
         margin-left: 2%;
+        margin-top: 30%;
     }
 }
 
