@@ -259,7 +259,7 @@ p.derechos-autor{
 .diferenciacion {
     width: calc(30% - 20px); /* Ajusta el ancho de los bloques según tus necesidades */
     margin-bottom: 20px;
-    margin-top: 20%;
+    margin-top: 10%;
     background: #023e7a;
 }
 
@@ -270,7 +270,7 @@ p.derechos-autor{
     .diferenciacion {
         width: calc(100% - 20px);
         margin-left: 2%;
-        margin-top: 30%;
+        margin-top: 20%;
     }
 }
 
@@ -297,7 +297,7 @@ p.derechos-autor{
 @media screen and (max-width: 768px) {
     .titulo-bienvenida {
         font-size: 24px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
-        top: 40%; /* Ajustar la posición vertical centrada para pantallas pequeñas */
+        top: 10%; /* Ajustar la posición vertical centrada para pantallas pequeñas */
     }
 }
 
