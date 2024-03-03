@@ -98,12 +98,13 @@ li{
     margin-top: 50px;
 }
 
-
-img.principal{
-    width: auto;
-    height: auto;
+img.principal {
+    max-width: 100%; /* Establece el tamaño máximo de la imagen como el ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
     margin-bottom: 100px;
-    align-items: center;
+    display: block; /* Asegura que la imagen se muestre como un bloque */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto; /* Centra la imagen horizontalmente */
 }
 
 
@@ -256,9 +257,9 @@ p.derechos-autor{
 .problematica,
 .impactoSocial,
 .diferenciacion {
-    width: calc(25% - 20px);
+    width: calc(30% - 20px); /* Ajusta el ancho de los bloques según tus necesidades */
     margin-bottom: 20px;
-    background:#023e7a;
+    background: #023e7a;
 }
 
 @media screen and (max-width: 768px) {
@@ -266,9 +267,10 @@ p.derechos-autor{
     .problematica,
     .impactoSocial,
     .diferenciacion {
-        width: calc(50% - 20px);
+        width: calc(50% - 20px); /* Cambia el ancho de los bloques para pantallas más pequeñas */
     }
 }
+
 
 p.derechos-autor{
     color: rgb(218, 218, 74);
