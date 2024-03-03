@@ -267,7 +267,7 @@ p.derechos-autor{
     .problematica,
     .impactoSocial,
     .diferenciacion {
-        width: calc(50% - 20px); /* Cambia el ancho de los bloques para pantallas más pequeñas */
+        width: calc(100% - 20px); /* Cambia el ancho de los bloques para pantallas más pequeñas */
     }
 }
 
