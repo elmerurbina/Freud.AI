@@ -168,7 +168,7 @@ p.derechos-autor{
 
 .menu ul li {
     margin: 0;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .menu a {
@@ -257,7 +257,7 @@ p.derechos-autor{
 .problematica,
 .impactoSocial,
 .diferenciacion {
-    width: calc(30% - 20px); /* Ajusta el ancho de los bloques según tus necesidades */
+    width: calc(20% - 20px); /* Ajusta el ancho de los bloques según tus necesidades */
     margin-bottom: 20px;
     margin-top: 10%;
     background: #023e7a;
