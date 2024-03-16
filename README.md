@@ -1,6 +1,6 @@
 # Freud IA Website
 
-¡Bienvenido al repositorio del sitio web de Freud AI!
+¡Bienvenido al repositorio del sitio web de Freud IA!
 
 Este repositorio contiene el código fuente del sitio web oficial de Freud IA, donde presentamos nuestro proyecto dedicado a proporcionar apoyo psicológico a través de la inteligencia artificial.
 
